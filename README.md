@@ -52,28 +52,3 @@ The model uses two splitting criteria:
 
     Gini impurity (for classification tasks)
     Mean squared error (for regression tasks)
-
-### Final results
-
-#### Evaluation of the performance of our Decision Tree on the Auto MPG dataset
-
-To evaluate our decision tree regressor's performance, we calculated its MSE and R^2 score on the Auto MPG dataset, which predicts fuel efficiency based on vehicle features.
-
-The MSE of 22.95 suggests that while the model has learned patterns in the data and provides a reasonable approximation, there is still room for improvement as there is still some difference between the predicted fuel efficiency values and the actual values
-
-The R^2 score of 0.5503 suggests that our decision tree model provides a reasonable approximation of fuel efficiency. The R^2 score indicates that the model can explain approximately 55.03% of the variance in the target variable.
-
-These results demonstrate that the tuned hyperparameters min_samples_split (17), max_depth (19), and max_features (1) make the model perform relatively well on this regression task.
-
-In conclusion, our decision tree regressor is a fairly reliable model for simple regression tasks
-
-#### Evaluation of the performance of our Decision Tree on the Iris dataset*
-
-To evaluate our decision tree classifier's performance, we decided to calculate its cross-validated accuracy on a classic dataset for classification (the Iris dataset).
-
-The average accuracy score on this classification task is 96% which suggests that our decision tree performed really well and could accurately predict the species of iris flowers based on their features. 
-The standard deviation of 0.025 is very low which suggests that the model is consistent in its predictions across different splits of the dataset.
-
-These results also show that the default values we chose for min_samples_split (2), max_depth (5) and max_features (None) work perfectly well for simple classification tasks
-
-In conclusion, the results indicate that the custom-built decision tree classifier is a reliable model for classifying iris flowers in the given dataset.
