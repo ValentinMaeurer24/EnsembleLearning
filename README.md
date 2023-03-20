@@ -9,7 +9,7 @@
 
 ## Decision Tree Model Implementation
 
-###Building the Tree
+### Building the Tree
 
 All of us worked on the development of the code for the decision tree. Due to its minor length, however, we decided to upload our final result all at once.
 
